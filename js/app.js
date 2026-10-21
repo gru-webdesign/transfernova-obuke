@@ -778,6 +778,9 @@ setInterval(() => {
   }
 }, 1000);
 
-if (!load()) seed();
+Object.assign(A, GH_ACTIONS);
+const hadLocal = load();
+if (!hadLocal) seed();
 render();
+ghStartup(hadLocal);
 document.fonts?.ready?.then(() => render());

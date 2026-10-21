@@ -258,5 +258,8 @@ function renderModal() {
       `<p class="serif text-sm">Brišu se sve obuke, rezultati i poruke. Agenti i nalozi ostaju.</p><div class="flex justify-end gap-2 mt-4"><button class="btn btn-o" data-act="mclose">Odustani</button><button class="btn btn-r" data-act="resetNow">Resetuj</button></div>`,
       460,
     );
+  else if (m.type === "gh") h = ghModal();
+  else if (m.type === "ghConflict") h = ghConflictModal();
+  else if (m.type === "ghLoadConfirm") h = ghLoadConfirmModal();
   $("#modal").innerHTML = h;
 }

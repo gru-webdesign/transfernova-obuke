@@ -128,6 +128,7 @@ function simBar() {
  <span>Prikaz: <button class="${S.role === "manager" ? "underline" : ""}" data-act="role" data-r="manager">Menadžer</button> · <button class="${S.role === "cashier" ? "underline" : ""}" data-act="role" data-r="cashier">Blagajnik</button></span>
  ${S.role === "cashier" ? `<select class="border rounded px-1 py-0.5 bg-white" data-chg="cashier" aria-label="Blagajnik">${opts}</select>` : ""}
  <span>Datum: <b class="num">${fmtD(S.now)}</b> <button data-act="time" data-d="1">+1 dan</button> · <button data-act="time" data-d="5">+5 dana</button></span>
+ ${ghBar()}
  <span class="ml-auto"><button data-act="modal" data-m="outbox">Poslata pošta (${S.messages.filter((m) => m.channel === "email").length})</button> · <button data-act="modal" data-m="reset">Reset</button></span></div>`;
 }
 

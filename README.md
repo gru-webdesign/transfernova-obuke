@@ -18,6 +18,24 @@ Traka **Simulacija** iznad aplikacije služi samo za prototip:
 
 U produkciji se ova traka uklanja.
 
+## Zajedničko stanje preko GitHub-a
+
+Na verziji objavljenoj na GitHub Pages, traka Simulacija ima deo **GitHub: Sačuvaj · Učitaj · Podešavanje**. Tako više ljudi testira na istim podacima, sa različitih računara.
+
+- **Gde se čuva:** grana `podaci`, fajl `data/stanje.json`. Svako čuvanje je jedan commit, pa se ranija stanja vide i vraćaju iz istorije grane. Grana `main` ostaje samo za kod, pa čuvanje ne pokreće ponovno objavljivanje sajta.
+- **Šta se deli:** datum simulacije, podešavanja, agenti i nalozi, obuke, dodele, odgovori, flagovi, poruke i dnevnik. Lokalno ostaje ono što je vezano za pregledač: trenutni prikaz, filteri, nacrt obuke u izradi i test u toku.
+- **Učitavanje** ne traži token. Pri prvom otvaranju u novom pregledaču stanje se učitava automatski. Posle toga aplikacija svaka 2 minuta proverava da li na GitHub-u postoji novije stanje i to prikazuje u traci.
+- **Čuvanje** traži GitHub token koji se unosi jednom u „Podešavanje“ i čuva se samo u tom pregledaču. Pravi se ovako: Settings → Developer settings → Personal access tokens → **Fine-grained tokens**:
+  - Repository access: **Only select repositories → transfernova-obuke**;
+  - Permissions: **Contents: Read and write**.
+- **Konflikt:** ako je neko sačuvao posle vašeg poslednjeg učitavanja, aplikacija nudi **Učitaj novije** ili **Prepiši**. Kod prepisivanja prethodna verzija ostaje u istoriji.
+- **Repozitorijum je javan:** sve sačuvano vidi svako. Ne unositi stvarne lične podatke.
+
+Tipičan tok testiranja:
+1. Menadžer kreira i pošalje obuku, pa klikne **Sačuvaj**.
+2. Kolega otvori link, izabere prikaz Blagajnik i svoj nalog, uradi test, pa klikne **Sačuvaj**.
+3. Menadžer klikne **Učitaj** i vidi rezultate.
+
 ## Struktura
 
 ```
@@ -27,6 +45,7 @@ js/util.js            datumi, escape, rad sa putanjama u objektima
 js/data.js            agenti i nalozi simulacije (10 / 20), podrazumevani tekstovi, prazni šabloni
 js/domain.js          bodovanje, flagovi, statusi, obaveštenja, blokada, raspored rokova
 js/certificate.js     sertifikat/zahvalnica na canvasu (PNG šablon + ime), čuvanje stanja
+js/github-sync.js     čuvanje/učitavanje zajedničkog stanja u GitHub (grana podaci)
 js/views-manager.js   ekrani menadžera
 js/views-cashier.js   ekrani blagajnika, dokument popunjenog testa, modali
 js/app.js             render, akcije (data-act), događaji, pokretanje
