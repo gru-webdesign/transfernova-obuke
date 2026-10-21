@@ -1,0 +1,1092 @@
+{
+ "format": "tn-obuke-stanje",
+ "version": 1,
+ "savedAt": "2026-10-21T13:44:57.572Z",
+ "savedBy": "Goran",
+ "state": {
+  "now": 1792483200000,
+  "settings": {
+   "defaultDeadline": 15,
+   "reminderDays": 3,
+   "autoUnblock": true,
+   "email": true
+  },
+  "agents": [
+   {
+    "id": "a1",
+    "name": "Ekspres Transfer",
+    "city": "Novi Sad"
+   },
+   {
+    "id": "a2",
+    "name": "Menjačnica Avala",
+    "city": "Beograd"
+   },
+   {
+    "id": "a3",
+    "name": "Dinar Plus",
+    "city": "Niš"
+   },
+   {
+    "id": "a4",
+    "name": "Zlatni Kurs",
+    "city": "Kragujevac"
+   },
+   {
+    "id": "a5",
+    "name": "Morava Exchange",
+    "city": "Kraljevo"
+   },
+   {
+    "id": "a6",
+    "name": "Dunav Pay",
+    "city": "Smederevo"
+   },
+   {
+    "id": "a7",
+    "name": "Menjačnica Sloga",
+    "city": "Subotica"
+   },
+   {
+    "id": "a8",
+    "name": "Ibar Transfer",
+    "city": "Novi Pazar"
+   },
+   {
+    "id": "a9",
+    "name": "Kosmaj Finans",
+    "city": "Mladenovac"
+   },
+   {
+    "id": "a10",
+    "name": "Panonija Money",
+    "city": "Zrenjanin"
+   }
+  ],
+  "users": [
+   {
+    "id": "u1",
+    "agentId": "a1",
+    "name": "Marko Petrović",
+    "username": "marko.petrovic",
+    "email": "marko.petrovic@ekspres-transfer.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u2",
+    "agentId": "a1",
+    "name": "Jelena Nikolić",
+    "username": "jelena.nikolic",
+    "email": "jelena.nikolic@ekspres-transfer.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u3",
+    "agentId": "a1",
+    "name": "Stefan Ilić",
+    "username": "stefan.ilic",
+    "email": "stefan.ilic@ekspres-transfer.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u4",
+    "agentId": "a2",
+    "name": "Ana Jovanović",
+    "username": "ana.jovanovic",
+    "email": "ana.jovanovic@menjacnica-avala.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u5",
+    "agentId": "a2",
+    "name": "Nikola Stojanović",
+    "username": "nikola.stojanovic",
+    "email": "nikola.stojanovic@menjacnica-avala.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u6",
+    "agentId": "a2",
+    "name": "Milica Pavlović",
+    "username": "milica.pavlovic",
+    "email": "milica.pavlovic@menjacnica-avala.test",
+    "active": false,
+    "blocked": null
+   },
+   {
+    "id": "u7",
+    "agentId": "a3",
+    "name": "Dragan Kostić",
+    "username": "dragan.kostic",
+    "email": "dragan.kostic@dinar-plus.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u8",
+    "agentId": "a3",
+    "name": "Ivana Marković",
+    "username": "ivana.markovic",
+    "email": "ivana.markovic@dinar-plus.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u9",
+    "agentId": "a4",
+    "name": "Miloš Đorđević",
+    "username": "milos.djordjevic",
+    "email": "milos.djordjevic@zlatni-kurs.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u10",
+    "agentId": "a4",
+    "name": "Tamara Popović",
+    "username": "tamara.popovic",
+    "email": "tamara.popovic@zlatni-kurs.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u11",
+    "agentId": "a5",
+    "name": "Vladimir Lazić",
+    "username": "vladimir.lazic",
+    "email": "vladimir.lazic@morava-exchange.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u12",
+    "agentId": "a5",
+    "name": "Sanja Todorović",
+    "username": "sanja.todorovic",
+    "email": "sanja.todorovic@morava-exchange.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u13",
+    "agentId": "a6",
+    "name": "Bojan Ristić",
+    "username": "bojan.ristic",
+    "email": "bojan.ristic@dunav-pay.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u14",
+    "agentId": "a6",
+    "name": "Katarina Simić",
+    "username": "katarina.simic",
+    "email": "katarina.simic@dunav-pay.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u15",
+    "agentId": "a7",
+    "name": "Nemanja Mitić",
+    "username": "nemanja.mitic",
+    "email": "nemanja.mitic@menjacnica-sloga.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u16",
+    "agentId": "a7",
+    "name": "Jovana Savić",
+    "username": "jovana.savic",
+    "email": "jovana.savic@menjacnica-sloga.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u17",
+    "agentId": "a8",
+    "name": "Aleksandar Obradović",
+    "username": "aleksandar.obradovic",
+    "email": "aleksandar.obradovic@ibar-transfer.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u18",
+    "agentId": "a9",
+    "name": "Maja Vasić",
+    "username": "maja.vasic",
+    "email": "maja.vasic@kosmaj-finans.test",
+    "active": true,
+    "blocked": null
+   },
+   {
+    "id": "u19",
+    "agentId": "a9",
+    "name": "Dejan Milošević",
+    "username": "dejan.milosevic",
+    "email": "dejan.milosevic@kosmaj-finans.test",
+    "active": false,
+    "blocked": null
+   },
+   {
+    "id": "u20",
+    "agentId": "a10",
+    "name": "Teodora Zdravković",
+    "username": "teodora.zdravkovic",
+    "email": "teodora.zdravkovic@panonija-money.test",
+    "active": true,
+    "blocked": null
+   }
+  ],
+  "trainings": [
+   {
+    "id": "t_57nr81",
+    "title": "Sprečavanje pranja novca i finansiranja terorizma",
+    "type": "test",
+    "category": "Obuka zastupnika",
+    "description": "",
+    "material": "",
+    "status": "sent",
+    "createdAt": 1792483200000,
+    "sentAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "settings": {
+     "deadlineDays": 15,
+     "passMark": 80,
+     "attempts": 2,
+     "timeLimit": 0,
+     "shuffle": false,
+     "showFeedback": false,
+     "partialCredit": false,
+     "autoBlock": false,
+     "regulatoryRef": ""
+    },
+    "buckets": [
+     {
+      "id": "b_57nr82",
+      "name": "Buket 1",
+      "drawCount": 0,
+      "questions": [
+       {
+        "id": "q_57nr83",
+        "text": "Koja su dva ključna propisa koja regulišu obaveze u vezi sa sprečavanjem pranja novca i finansiranja terorizma? (zaokružiti više tačnih odgovora)",
+        "type": "multi",
+        "points": 1,
+        "required": true,
+        "options": [
+         {
+          "id": "q_57nr83_o_57nr84",
+          "text": "Zakon o sprečavanju pranja novca i finansiranja terorizma",
+          "correct": true,
+          "flag": {
+           "on": false,
+           "severity": "high",
+           "message": "",
+           "regulatory": true
+          }
+         },
+         {
+          "id": "q_57nr83_o_57nr85",
+          "text": "Zakon o obligacionim odnosima",
+          "correct": false,
+          "flag": {
+           "on": false,
+           "severity": "high",
+           "message": "",
+           "regulatory": true
+          }
+         },
+         {
+          "id": "q_57nr83_o_58zfo6",
+          "text": "Zakon o ograničavanju raspolaganja imovinom u cilju sprečavanja terorizma i širenja oružja za masovno uništenje",
+          "correct": true,
+          "flag": {
+           "on": false,
+           "severity": "high",
+           "message": "",
+           "regulatory": true
+          }
+         }
+        ]
+       },
+       {
+        "id": "q_5g8sy7",
+        "text": "Obveznici Zakona o sprečavanju pranja novca i finansiranja terorizma su: (zaokružiti jedan tačan odgovor)",
+        "type": "single",
+        "points": 1,
+        "required": true,
+        "options": [
+         {
+          "id": "q_5g8sy7_o_5g8sy8",
+          "text": "Zlatarske radnje",
+          "correct": false,
+          "flag": {
+           "on": false,
+           "severity": "high",
+           "message": "",
+           "regulatory": true
+          }
+         },
+         {
+          "id": "q_5g8sy7_o_5g8sy9",
+          "text": "Ovlašćeni menjači i privredni subjekti koji menjačke poslove obavljaju na osnovu posebnog zakona kojim se uređuje njihova delatnost",
+          "correct": true,
+          "flag": {
+           "on": false,
+           "severity": "high",
+           "message": "",
+           "regulatory": true
+          }
+         },
+         {
+          "id": "q_5g8sy7_o_5gnb3a",
+          "text": "Prodavci automobila",
+          "correct": false,
+          "flag": {
+           "on": false,
+           "severity": "high",
+           "message": "",
+           "regulatory": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "certificate": {
+     "enabled": true,
+     "image": null,
+     "nameX": 50,
+     "nameY": 47,
+     "fontSize": 51,
+     "color": "#1f2547",
+     "showTitle": true,
+     "showDate": true,
+     "text": ""
+    },
+    "thankYou": {
+     "enabled": true,
+     "image": null,
+     "nameX": 50,
+     "nameY": 47,
+     "fontSize": 44,
+     "color": "#1f2547",
+     "showTitle": true,
+     "showDate": true,
+     "text": "Zahvaljujemo vam na savesno popunjenom upitniku."
+    },
+    "notifyText": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da {tip} ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "audience": {
+     "mode": "all",
+     "agentIds": []
+    }
+   }
+  ],
+  "assignments": [
+   {
+    "id": "as_5j5o8b",
+    "trainingId": "t_57nr81",
+    "userId": "u1",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o8e",
+    "trainingId": "t_57nr81",
+    "userId": "u2",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o8h",
+    "trainingId": "t_57nr81",
+    "userId": "u3",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o8k",
+    "trainingId": "t_57nr81",
+    "userId": "u4",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o8n",
+    "trainingId": "t_57nr81",
+    "userId": "u5",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o8q",
+    "trainingId": "t_57nr81",
+    "userId": "u7",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o8t",
+    "trainingId": "t_57nr81",
+    "userId": "u8",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o8w",
+    "trainingId": "t_57nr81",
+    "userId": "u9",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o8z",
+    "trainingId": "t_57nr81",
+    "userId": "u10",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o812",
+    "trainingId": "t_57nr81",
+    "userId": "u11",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o815",
+    "trainingId": "t_57nr81",
+    "userId": "u12",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [
+     {
+      "id": "at_5llm41y",
+      "startedAt": 1792483200000,
+      "submittedAt": 1792483200000,
+      "certName": "Sanja Todorović",
+      "drawn": [
+       "q_57nr83",
+       "q_5g8sy7"
+      ],
+      "answers": {
+       "q_57nr83": [
+        "q_57nr83_o_57nr84",
+        "q_57nr83_o_58zfo6"
+       ],
+       "q_5g8sy7": [
+        "q_5g8sy7_o_5g8sy9"
+       ]
+      },
+      "score": 2,
+      "max": 2,
+      "pct": 100,
+      "passed": true,
+      "detail": {
+       "q_57nr83": {
+        "got": 1,
+        "max": 1,
+        "ok": true
+       },
+       "q_5g8sy7": {
+        "got": 1,
+        "max": 1,
+        "ok": true
+       }
+      },
+      "flags": []
+     }
+    ],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o818",
+    "trainingId": "t_57nr81",
+    "userId": "u13",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o81b",
+    "trainingId": "t_57nr81",
+    "userId": "u14",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o81e",
+    "trainingId": "t_57nr81",
+    "userId": "u15",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o81h",
+    "trainingId": "t_57nr81",
+    "userId": "u16",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o81k",
+    "trainingId": "t_57nr81",
+    "userId": "u17",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o81n",
+    "trainingId": "t_57nr81",
+    "userId": "u18",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   },
+   {
+    "id": "as_5j5o81q",
+    "trainingId": "t_57nr81",
+    "userId": "u20",
+    "assignedAt": 1792483200000,
+    "deadlineAt": 1793779200000,
+    "attempts": [],
+    "draft": null,
+    "extra": 0
+   }
+  ],
+  "messages": [
+   {
+    "userId": "u1",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8b",
+    "read": false,
+    "id": "m_5j5o8c",
+    "channel": "app"
+   },
+   {
+    "userId": "u1",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8b",
+    "read": false,
+    "id": "m_5j5o8d",
+    "channel": "email",
+    "to": "marko.petrovic@ekspres-transfer.test"
+   },
+   {
+    "userId": "u2",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8e",
+    "read": false,
+    "id": "m_5j5o8f",
+    "channel": "app"
+   },
+   {
+    "userId": "u2",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8e",
+    "read": false,
+    "id": "m_5j5o8g",
+    "channel": "email",
+    "to": "jelena.nikolic@ekspres-transfer.test"
+   },
+   {
+    "userId": "u3",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8h",
+    "read": false,
+    "id": "m_5j5o8i",
+    "channel": "app"
+   },
+   {
+    "userId": "u3",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8h",
+    "read": false,
+    "id": "m_5j5o8j",
+    "channel": "email",
+    "to": "stefan.ilic@ekspres-transfer.test"
+   },
+   {
+    "userId": "u4",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8k",
+    "read": false,
+    "id": "m_5j5o8l",
+    "channel": "app"
+   },
+   {
+    "userId": "u4",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8k",
+    "read": false,
+    "id": "m_5j5o8m",
+    "channel": "email",
+    "to": "ana.jovanovic@menjacnica-avala.test"
+   },
+   {
+    "userId": "u5",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8n",
+    "read": false,
+    "id": "m_5j5o8o",
+    "channel": "app"
+   },
+   {
+    "userId": "u5",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8n",
+    "read": false,
+    "id": "m_5j5o8p",
+    "channel": "email",
+    "to": "nikola.stojanovic@menjacnica-avala.test"
+   },
+   {
+    "userId": "u7",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8q",
+    "read": false,
+    "id": "m_5j5o8r",
+    "channel": "app"
+   },
+   {
+    "userId": "u7",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8q",
+    "read": false,
+    "id": "m_5j5o8s",
+    "channel": "email",
+    "to": "dragan.kostic@dinar-plus.test"
+   },
+   {
+    "userId": "u8",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8t",
+    "read": false,
+    "id": "m_5j5o8u",
+    "channel": "app"
+   },
+   {
+    "userId": "u8",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8t",
+    "read": false,
+    "id": "m_5j5o8v",
+    "channel": "email",
+    "to": "ivana.markovic@dinar-plus.test"
+   },
+   {
+    "userId": "u9",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8w",
+    "read": false,
+    "id": "m_5j5o8x",
+    "channel": "app"
+   },
+   {
+    "userId": "u9",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8w",
+    "read": false,
+    "id": "m_5j5o8y",
+    "channel": "email",
+    "to": "milos.djordjevic@zlatni-kurs.test"
+   },
+   {
+    "userId": "u10",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8z",
+    "read": false,
+    "id": "m_5j5o810",
+    "channel": "app"
+   },
+   {
+    "userId": "u10",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o8z",
+    "read": false,
+    "id": "m_5j5o811",
+    "channel": "email",
+    "to": "tamara.popovic@zlatni-kurs.test"
+   },
+   {
+    "userId": "u11",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o812",
+    "read": false,
+    "id": "m_5j5o813",
+    "channel": "app"
+   },
+   {
+    "userId": "u11",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o812",
+    "read": false,
+    "id": "m_5j5o814",
+    "channel": "email",
+    "to": "vladimir.lazic@morava-exchange.test"
+   },
+   {
+    "userId": "u12",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o815",
+    "read": false,
+    "id": "m_5j5o816",
+    "channel": "app"
+   },
+   {
+    "userId": "u12",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o815",
+    "read": false,
+    "id": "m_5j5o817",
+    "channel": "email",
+    "to": "sanja.todorovic@morava-exchange.test"
+   },
+   {
+    "userId": "u13",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o818",
+    "read": false,
+    "id": "m_5j5o819",
+    "channel": "app"
+   },
+   {
+    "userId": "u13",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o818",
+    "read": false,
+    "id": "m_5j5o81a",
+    "channel": "email",
+    "to": "bojan.ristic@dunav-pay.test"
+   },
+   {
+    "userId": "u14",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o81b",
+    "read": false,
+    "id": "m_5j5o81c",
+    "channel": "app"
+   },
+   {
+    "userId": "u14",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o81b",
+    "read": false,
+    "id": "m_5j5o81d",
+    "channel": "email",
+    "to": "katarina.simic@dunav-pay.test"
+   },
+   {
+    "userId": "u15",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o81e",
+    "read": false,
+    "id": "m_5j5o81f",
+    "channel": "app"
+   },
+   {
+    "userId": "u15",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o81e",
+    "read": false,
+    "id": "m_5j5o81g",
+    "channel": "email",
+    "to": "nemanja.mitic@menjacnica-sloga.test"
+   },
+   {
+    "userId": "u16",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o81h",
+    "read": false,
+    "id": "m_5j5o81i",
+    "channel": "app"
+   },
+   {
+    "userId": "u16",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o81h",
+    "read": false,
+    "id": "m_5j5o81j",
+    "channel": "email",
+    "to": "jovana.savic@menjacnica-sloga.test"
+   },
+   {
+    "userId": "u17",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o81k",
+    "read": false,
+    "id": "m_5j5o81l",
+    "channel": "app"
+   },
+   {
+    "userId": "u17",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o81k",
+    "read": false,
+    "id": "m_5j5o81m",
+    "channel": "email",
+    "to": "aleksandar.obradovic@ibar-transfer.test"
+   },
+   {
+    "userId": "u18",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o81n",
+    "read": false,
+    "id": "m_5j5o81o",
+    "channel": "app"
+   },
+   {
+    "userId": "u18",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o81n",
+    "read": false,
+    "id": "m_5j5o81p",
+    "channel": "email",
+    "to": "maja.vasic@kosmaj-finans.test"
+   },
+   {
+    "userId": "u20",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o81q",
+    "read": false,
+    "id": "m_5j5o81r",
+    "channel": "app"
+   },
+   {
+    "userId": "u20",
+    "subject": "Nova obavezna obuka: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "assign",
+    "at": 1792483200000,
+    "assignId": "as_5j5o81q",
+    "read": false,
+    "id": "m_5j5o81s",
+    "channel": "email",
+    "to": "teodora.zdravkovic@panonija-money.test"
+   },
+   {
+    "userId": "u12",
+    "subject": "Položili ste: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "Test ste položili sa 100% (prag 80%). Sertifikat je dostupan u delu Obuke.",
+    "kind": "result",
+    "at": 1792483200000,
+    "assignId": "as_5j5o815",
+    "read": false,
+    "id": "m_5llm41z",
+    "channel": "app"
+   },
+   {
+    "userId": "u12",
+    "subject": "Položili ste: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "Test ste položili sa 100% (prag 80%). Sertifikat je dostupan u delu Obuke.",
+    "kind": "result",
+    "at": 1792483200000,
+    "assignId": "as_5j5o815",
+    "read": false,
+    "id": "m_5llm420",
+    "channel": "email",
+    "to": "sanja.todorovic@morava-exchange.test"
+   },
+   {
+    "userId": "u11",
+    "subject": "Podsetnik: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "reminder",
+    "at": 1792483200000,
+    "assignId": "as_5j5o812",
+    "read": false,
+    "id": "m_5raxf21",
+    "channel": "app"
+   },
+   {
+    "userId": "u11",
+    "subject": "Podsetnik: Sprečavanje pranja novca i finansiranja terorizma",
+    "body": "U skladu sa regulativom, neophodno je da pristupite obuci i uradite test u roku od 15 dana (najkasnije do 04.11.2026). U slučaju da test ne uradite u navedenom periodu, korisnički nalog može biti blokiran za rad.",
+    "kind": "reminder",
+    "at": 1792483200000,
+    "assignId": "as_5j5o812",
+    "read": false,
+    "id": "m_5raxf22",
+    "channel": "email",
+    "to": "vladimir.lazic@morava-exchange.test"
+   }
+  ],
+  "audit": [
+   {
+    "at": 1792483200000,
+    "who": "Sanja Todorović",
+    "text": "Predao test „Sprečavanje pranja novca i finansiranja terorizma“ – 100%"
+   },
+   {
+    "at": 1792483200000,
+    "who": "Goran Grujović",
+    "text": "Poslat test „Sprečavanje pranja novca i finansiranja terorizma“ na 18 naloga"
+   },
+   {
+    "at": 1792483200000,
+    "who": "Goran Grujović",
+    "text": "Kreiran nacrt „Sprečavanje pranja novca i finansiranja terorizma“"
+   }
+  ]
+ }
+}
